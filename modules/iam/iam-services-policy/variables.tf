@@ -14,7 +14,7 @@ variable "service_label" {
 variable "enable_tenancy_level_policies" {
   description = "Whether policies for OCI services are enabled at the tenancy level."
   type = bool
-  default = true
+  default = false
 }
 
 variable "tenancy_policy_name" {
